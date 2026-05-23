@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://natebowser.com/</loc>
+  </url>
+  <url>
+    <loc>https://natebowser.com/projects/</loc>
+  </url>
+  <url>
+    <loc>https://natebowser.com/resume/</loc>
+  </url>
+  <url>
+    <loc>https://natebowser.com/about/</loc>
+  </url>
+  <url>
+    <loc>https://natebowser.com/resume.md</loc>
+  </url>
+  <url>
+    <loc>https://natebowser.com/index.md</loc>
+  </url>
+  <url>
+    <loc>https://natebowser.com/projects.md</loc>
+  </url>
+  <url>
+    <loc>https://natebowser.com/about.md</loc>
+  </url>
+  <url>
+    <loc>https://natebowser.com/llms.txt</loc>
+  </url>
+  <url>
+    <loc>https://natebowser.com/agent-corpus.ndjson</loc>
+  </url>
+</urlset>

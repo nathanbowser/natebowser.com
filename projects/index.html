@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Projects by Nate Bowser: the Spider Impact visualization platform, Kalpa Tree and other component libraries, the Spider Strategies website and Anansi agent stack, Dash, and developer enablement.">
+  <meta property="og:title" content="Projects · Nate Bowser">
+  <meta property="og:description" content="Projects by Nate Bowser: the Spider Impact visualization platform, Kalpa Tree and other component libraries, the Spider Strategies website and Anansi agent stack, Dash, and developer enablement.">
+  <meta property="og:url" content="https://natebowser.com/projects/">
+  <meta property="og:image" content="https://natebowser.com/assets/og-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Projects · Nate Bowser">
+  <meta name="twitter:description" content="Projects by Nate Bowser: the Spider Impact visualization platform, Kalpa Tree and other component libraries, the Spider Strategies website and Anansi agent stack, Dash, and developer enablement.">
+  <meta name="twitter:image" content="https://natebowser.com/assets/og-card.png">
+  <title>Projects · Nate Bowser</title>
+  <link rel="canonical" href="https://natebowser.com/projects/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <svg class="icon-sprite" aria-hidden="true">
+    <symbol id="icon-home" viewBox="0 0 24 24"><path d="M5 16.5V10l7-5 7 5v6.5" /><path d="M9 19v-6h6v6" /><path d="M7 19h10" /></symbol>
+    <symbol id="icon-projects" viewBox="0 0 24 24"><path d="M5 6.5h5v5H5z" /><path d="M14 6.5h5v5h-5z" /><path d="M5 15h5v2.5H5z" /><path d="M14 15h5v2.5h-5z" /></symbol>
+    <symbol id="icon-resume" viewBox="0 0 24 24"><path d="M7 3.5h7l3 3V20H7z" /><path d="M14 3.5v3h3" /><path d="M9.5 10h5" /><path d="M9.5 13h5" /><path d="M9.5 16h3" /></symbol>
+    <symbol id="icon-about" viewBox="0 0 24 24"><path d="M3.5 18.5 9 8.5l3.25 5.7" /><path d="M10.5 18.5 15.5 6l5 12.5" /><path d="m7.8 10.8 1.7 1.4 1.2-1.1" /><path d="m14.4 8.8 1.4 1.2 1.3-1" /><path d="M3 18.5h18" /></symbol>
+    <symbol id="icon-github" viewBox="0 0 24 24"><path d="M8.5 18.5c-2.6-.9-4-2.9-4-5.8 0-1.4.5-2.7 1.4-3.8-.2-.8-.1-1.8.3-3 1.2.1 2.2.5 3.1 1.2.9-.2 1.8-.3 2.7-.3s1.8.1 2.7.3c.9-.7 1.9-1.1 3.1-1.2.4 1.2.5 2.2.3 3 .9 1.1 1.4 2.4 1.4 3.8 0 2.9-1.4 4.9-4 5.8" /><path d="M9 21v-3c0-1 .6-1.8 1.4-2.2" /><path d="M15 21v-3c0-1-.6-1.8-1.4-2.2" /><path d="M9 18.5h6" /></symbol>
+    <symbol id="icon-email" viewBox="0 0 24 24"><path d="M4.5 7.5h15v10h-15z" /><path d="m5.5 8.5 6.5 5 6.5-5" /><path d="m5.5 16.5 4.4-3.3" /><path d="m18.5 16.5-4.4-3.3" /></symbol>
+  </svg>
+
+  <aside class="rail" aria-label="Quick navigation">
+    <a class="rail-mark" aria-label="Home" title="NB" href="/">NB</a>
+    <a aria-label="About" title="About" href="/about/"><svg aria-hidden="true"><use href="#icon-about"></use></svg></a>
+    <a aria-current="page" aria-label="Projects" title="Projects" href="/projects/"><svg aria-hidden="true"><use href="#icon-projects"></use></svg></a>
+    <a aria-label="Resume" title="Resume" href="/resume/"><svg aria-hidden="true"><use href="#icon-resume"></use></svg></a>
+    <a aria-label="GitHub" title="GitHub" href="https://github.com/nathanbowser"><svg aria-hidden="true"><use href="#icon-github"></use></svg></a>
+    <a aria-label="Email" title="Email" href="mailto:nbowser@gmail.com"><svg aria-hidden="true"><use href="#icon-email"></use></svg></a>
+  </aside>
+
+  <header class="site-header">
+    <a class="brand" href="/">Nate Bowser</a>
+    <nav aria-label="Primary navigation">
+      <a aria-label="About" title="About" href="/about/"><svg aria-hidden="true"><use href="#icon-about"></use></svg></a>
+      <a aria-current="page" aria-label="Projects" title="Projects" href="/projects/"><svg aria-hidden="true"><use href="#icon-projects"></use></svg></a>
+      <a aria-label="Resume" title="Resume" href="/resume/"><svg aria-hidden="true"><use href="#icon-resume"></use></svg></a>
+      <a aria-label="GitHub" title="GitHub" href="https://github.com/nathanbowser"><svg aria-hidden="true"><use href="#icon-github"></use></svg></a>
+      <a aria-label="Email" title="Email" href="mailto:nbowser@gmail.com"><svg aria-hidden="true"><use href="#icon-email"></use></svg></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-intro">
+      <p class="kicker">Projects</p>
+      <h1 class="visually-hidden">Projects</h1>
+      <p>A few systems I’ve spent real time with: visualization platforms, component libraries, website infrastructure, AI automation, and founder-close product work. Most of this is Spider Impact and the work around it: a single long-lived product where I built the visualization layer, then the libraries underneath, then the website and AI stack on top.</p>
+    </section>
+
+    <section id="impact-visualization" class="work-item feature-work">
+      <div>
+        <p class="kicker">Spider Impact</p>
+        <h2>Visualization platform</h2>
+      </div>
+      <div class="work-copy">
+        <p>Built the visualization and dashboard-editing platform behind Spider Impact: data stories, charting, earned value visuals, clustering explainers, shape tools, maps, and free-form dashboard editing. The centerpiece is a 10+ year dashboard editor for composing, editing, and presenting dashboard objects without losing stability.</p>
+      </div>
+        <div class="component-reel-wrap">
+          <button class="reel-button reel-button-prev" type="button" aria-label="Previous visualization example" hidden>
+            <span aria-hidden="true">‹</span>
+          </button>
+          <div class="component-reel" aria-label="Visualization component examples">
+            <figure>
+              <div class="component-preview component-animation-preview" aria-hidden="true">
+                <img src="/assets/canvas-demo.webp?v=20260523orig" alt="" loading="eager" decoding="async">
+              </div>
+              <figcaption><span>Dashboard canvas</span>A Keynote-like editor in the browser: selection, marquee, snap lines, autoscroll, history stacks, RTL support, and Bezier connectors between dashboard objects.</figcaption>
+            </figure>
+            <figure>
+              <div class="component-preview component-animation-preview" aria-hidden="true">
+                <img data-src="/assets/shapes-demo.webp?v=20260523orig" alt="" loading="lazy" decoding="async">
+              </div>
+              <figcaption><span>SVG shapes</span>A 40+ shape SVG library with fully customizable fills, strokes, handles, and labels; Keynote-like manipulation, built for the browser.</figcaption>
+            </figure>
+            <figure>
+              <div class="component-preview component-animation-preview component-animation-contain" aria-hidden="true">
+                <img data-src="/assets/chart-demo.webp?v=20260523orig" alt="" loading="lazy" decoding="async">
+              </div>
+              <figcaption><span>Chart engine</span>A reusable chart library with animated transitions, forecasting, labels, legends, axes, palettes, exports, and many chart types: bar, line, area, polar, treemap, map, timeline, funnel, pyramid, regression, waffle, and wafflegrid.</figcaption>
+            </figure>
+            <figure>
+              <div class="component-preview component-animation-preview component-animation-contain" aria-hidden="true">
+                <img data-src="/assets/evm-demo.webp?v=20260523orig" alt="" loading="lazy" decoding="async">
+              </div>
+              <figcaption><span>EVM interactives</span>Earned value forecasting with sliders for work completed and money spent, showing projected schedule and budget outcomes as the assumptions move.</figcaption>
+            </figure>
+            <figure>
+              <div class="component-preview component-animation-preview" aria-hidden="true">
+                <img data-src="/assets/maps-demo.webp?v=20260523orig" alt="" loading="lazy" decoding="async">
+              </div>
+              <figcaption><span>Maps</span>D3 map components with projections, pan/zoom interaction, filled regions, bubbles, spikes, clustering, and dashboard-safe rendering.</figcaption>
+            </figure>
+            <figure>
+              <div class="component-preview component-animation-preview component-animation-contain" aria-hidden="true">
+                <img data-src="/assets/clustering-demo.webp?v=20260523orig" alt="" loading="lazy" decoding="async">
+              </div>
+              <figcaption><span>Data clustering</span>A k-means-style clustering explainer that groups records by mathematical distance, turning scattered customer data into segments people can act on.</figcaption>
+            </figure>
+          </div>
+          <button class="reel-button reel-button-next" type="button" aria-label="Next visualization example">
+            <span aria-hidden="true">›</span>
+          </button>
+        </div>
+        <p class="quiet-note product-context">Product UI shown for engineering context. My work focused on implementation, component architecture, performance, and browser behavior.</p>
+    </section>
+
+    <section id="component-libraries" class="work-item">
+      <div>
+        <p class="kicker">Impact component libraries</p>
+        <h2>The libraries underneath Spider Impact</h2>
+      </div>
+      <div class="work-copy">
+        <p>Some of the best proof is in the focused libraries: product-grade UI primitives built because Spider Impact needed behavior that generic packages did not quite provide.</p>
+        <div class="library-grid" aria-label="Component library examples">
+          <article class="library-feature">
+            <div>
+              <h3><a href="https://github.com/SpiderStrategies/kalpa-tree">Kalpa Tree</a></h3>
+              <p>Core Spider Impact navigation infrastructure: a hierarchical D3 tree built for large browser datasets, streaming nodes, selection, drag/drop reparenting, and performance mode. It handles 50K+ nodes while keeping the browser responsive.</p>
+            </div>
+            <div class="library-demo" aria-label="Kalpa Tree interface demo">
+              <img src="/assets/kalpa-tree-demo.webp" width="128" height="208" alt="" loading="lazy" decoding="async">
+            </div>
+          </article>
+          <article>
+            <h3>Enclosure</h3>
+            <p>Drag/drop layout engine for nested rows, columns, stacks, placeholders, and animated reflow. The kind of interaction that is much easier to understand when you can watch it move.</p>
+          </article>
+          <article>
+            <h3>Cleaver</h3>
+            <p>JSON exploration and path selection UI for making structured data easier to inspect and target.</p>
+          </article>
+          <article>
+            <h3>Rich Select</h3>
+            <p>Rich select for massive hierarchical datasets: hundreds of thousands of nodes, fast search, custom rendering, keyboard behavior, and product-specific selection rules.</p>
+          </article>
+        </div>
+        <p class="quiet-note">Also built: Inception for stacked browser views, Vogue for image cropping, and other small UI utilities that solved specific product problems without becoming frameworks.</p>
+      </div>
+    </section>
+
+    <section id="web-ai" class="work-item">
+      <div>
+        <p class="kicker">Web, CMS, AI</p>
+        <h2>Company website architecture</h2>
+      </div>
+      <div class="work-copy">
+        <p>Recently I’ve focused on the Spider Strategies website stack: static SEO architecture on AWS, Lighthouse and Core Web Vitals tuning, custom CMS tooling, sales lead flow, and a public agent service that makes site, support, and API knowledge readable to both humans and AI.</p>
+        <ul class="plain-list">
+          <li>SpiderStrategies.com: static site generator architecture, SEO content systems, visual pages, gated content, agent corpus, OpenAPI publishing, and S3/CloudFront deploy tooling.</li>
+          <li>Public interactive explainers: data clustering and forecasting on <a href="https://www.spiderstrategies.com/business-intelligence/">business intelligence</a>, plus EVM prediction charts and sliders on <a href="https://www.spiderstrategies.com/earned-value-management/">earned value management</a>.</li>
+          <li>AWS operations: S3 publishing, CloudFront invalidation and response-header policies, CloudFront Functions for markdown negotiation, Route 53/DNS coordination, and staging/production deployment paths.</li>
+          <li>Lead flow: contact and insight forms that connect marketing pages to sales workflows without turning the site into a brittle app.</li>
+          <li>Weaver: custom CMS for blog, documents, images, gated assets, prompt overrides, GitHub-backed editing, and deploy workflows.</li>
+          <li>Anansi: MCP and HTTP service behind agents.spiderstrategies.com, served through CloudFront with an EC2/nginx/Node origin, systemd deploys, health checks, and cited retrieval over website, support, and API corpora.</li>
+          <li>Agent operations: practical workflows across Codex, Claude, Cursor, custom prompts, quality gates, and codebase-specific rules.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="dash" class="work-item">
+      <div>
+        <p class="kicker">Dash</p>
+        <h2>Founder-close product engineering</h2>
+      </div>
+      <div class="work-copy">
+        <p>Worked directly with the founder on Dash, an internal company spinoff that was eventually shut down but fed ideas and technology back into the main product. The work mixed modern-for-the-time frontend architecture with homegrown visualization and dashboard components.</p>
+        <ul class="plain-list">
+          <li>Dashboard app, widget framework, charts, gauges, goal widgets, and free-form canvas composition.</li>
+          <li>Third-party integrations, OAuth flows, realtime push services, image processing, thumbnails, sitemaps, queues, and deployment/server tooling.</li>
+          <li>Useful product lessons that later informed Spider Impact’s dashboard, visualization, and component architecture.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="training" class="work-item">
+      <div>
+        <p class="kicker">Training</p>
+        <h2>Developer enablement</h2>
+      </div>
+      <div class="work-copy">
+        <p>Before Spider Strategies, delivered enterprise software-development seminars and mentored developers on Java/JEE, Spring, Hibernate/JPA, application design, and best-practice coding. That training background now carries into AI adoption: helping engineers use agents as leverage without giving up clarity, ownership, or maintainability.</p>
+        <ul class="plain-list">
+          <li>Delivered seminars for large enterprise audiences, including Boeing, the IRS, FedEx, Wells Fargo, and Morgan Stanley.</li>
+          <li>Served as lead instructor and mentor for a Java immersion initiative at a 100,000+ employee corporation.</li>
+          <li>Wrote technical exercises and taught practical frameworks from real consulting experience rather than stale academic examples.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p><a href="/resume/">Resume</a></p>
+    <p><a href="mailto:nbowser@gmail.com">nbowser@gmail.com</a></p>
+  </footer>
+  <script>
+    document.querySelectorAll(".component-reel-wrap").forEach((wrap) => {
+      const reel = wrap.querySelector(".component-reel");
+      const previous = wrap.querySelector(".reel-button-prev");
+      const next = wrap.querySelector(".reel-button-next");
+      const figures = Array.from(reel.querySelectorAll("figure"));
+
+      const loadImage = (image) => {
+        if (!image || !image.dataset.src) {
+          return;
+        }
+
+        image.src = image.dataset.src;
+        image.removeAttribute("data-src");
+      };
+
+      const loadFigure = (figure) => {
+        loadImage(figure?.querySelector("img[data-src]"));
+      };
+
+      const currentIndex = () => Math.round(reel.scrollLeft / reel.clientWidth);
+
+      const loadNearby = (index) => {
+        [index - 1, index, index + 1].forEach((nearbyIndex) => {
+          if (nearbyIndex >= 0 && nearbyIndex < figures.length) {
+            loadFigure(figures[nearbyIndex]);
+          }
+        });
+      };
+
+      const observer = "IntersectionObserver" in window
+        ? new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                loadFigure(entry.target);
+                observer.unobserve(entry.target);
+              }
+            });
+          }, {
+            root: reel,
+            rootMargin: "0px",
+            threshold: 0.01
+          })
+        : null;
+
+      if (observer) {
+        figures.forEach((figure) => observer.observe(figure));
+      } else {
+        figures.forEach(loadFigure);
+      }
+
+      const updateButtons = () => {
+        const max = reel.scrollWidth - reel.clientWidth;
+        previous.hidden = reel.scrollLeft <= 2;
+        next.hidden = reel.scrollLeft >= max - 2;
+        loadNearby(currentIndex());
+      };
+
+      const slide = (direction) => {
+        const targetIndex = Math.max(0, Math.min(figures.length - 1, currentIndex() + direction));
+        loadNearby(targetIndex);
+        reel.scrollBy({
+          left: direction * reel.clientWidth,
+          behavior: "smooth"
+        });
+      };
+
+      previous.addEventListener("click", () => slide(-1));
+      next.addEventListener("click", () => slide(1));
+      reel.addEventListener("scroll", updateButtons, { passive: true });
+      window.addEventListener("resize", updateButtons);
+      updateButtons();
+    });
+  </script>
+  <!-- Cloudflare Web Analytics -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "d8d77d1602594b84b327955f184ced5c"}'></script>
+  <!-- End Cloudflare Web Analytics -->
+</body>
+</html>
