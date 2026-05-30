@@ -19,6 +19,7 @@ Nate Bowser is a senior software engineer focused on AI automation and visualiza
 - Senior Software Engineer, AI Automation and Visualization Systems.
 - Best-fit title variants: Senior AI Automation Engineer, Senior Product Engineer, Visualization Systems Engineer.
 - Founder-friendly systems builder for passionate founders and product teams that need clean architecture, readable code, and pragmatic execution.
+- Best fit: small curious-builder teams with enough context, trust, ownership, and room to wear many useful hats without chaos.
 - Long-running product engineering work at Spider Strategies.
 - Major technical focus: Spider Impact visualization components including chart, canvas, kalpa-tree, gauges, impact-shape, maps, timelines, and export workflows.
 - Earlier major product work: Dash, a realtime dashboard product with integrations, widgets, push services, image processing, and deployment tooling.

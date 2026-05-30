@@ -27,6 +27,8 @@ Professionally, I work across product engineering, with a long focus on visualiz
 
 The best fit is close work with passionate founders and small product teams: not just getting a demo working, but building something that sells, feels polished, and leaves behind a codebase people can still understand later.
 
+I’m drawn to small teams that hire curious people who can build, then give them enough context and trust to do the work. Wearing many hats works when it comes with ownership; otherwise it’s just chaos.
+
 That is also how I think about AI work. I like managed agents, Codex, Claude, Cursor, retrieval, and automation, but I'm intensely skeptical of bloat and tech debt. The point is leverage, not noise. Good AI tooling should make a codebase clearer, smaller, and easier to move through, not create a faster way to bury it.
 
 ## Other
