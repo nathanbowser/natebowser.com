@@ -1517,7 +1517,31 @@
     }
 
     .note-window {
-      inline-size: min(calc(100vw - 1.25rem), 34rem);
+      inset: auto .625rem auto .625rem;
+      inset-block-start: anchor(bottom);
+      inline-size: auto;
+      max-inline-size: none;
+      max-block-size: min(68vh, 28rem);
+      margin: .55rem 0 0;
+      overflow: auto;
+      overscroll-behavior: contain;
+      padding: .85rem;
+    }
+
+    .note-window::backdrop {
+      background: rgb(23 21 17 / 14%);
+    }
+
+    .note-window li {
+      grid-template-columns: 3.05rem minmax(0, 1fr);
+      column-gap: .65rem;
+      row-gap: .06rem;
+      align-items: start;
+    }
+
+    .note-window strong {
+      grid-column: 2;
+      white-space: normal;
     }
   }
 
