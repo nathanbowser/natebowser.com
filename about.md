@@ -16,6 +16,8 @@ Recent race notes:
 - 2025: [Wildflower 50K](https://runsignup.com/Race/WY/Alta/GrandTargheeWildflowerRun), 3rd OA.
 - 2025: [The Rut 50K](https://runtherut.com/), 3rd AG.
 - 2026: [Rothrock 50K](https://rothrock.utmb.world/), 2nd AG / 17th OA.
+- 2026: [Speedgoat 50K](https://speedgoat.utmb.world/), 2nd AG / 34th OA.
+- 2026: [Wildflower 28K](https://runsignup.com/Race/WY/Alta/GrandTargheeWildflowerRun), 3rd OA.
 
 Depending on the season, you might find me skiing a steep couloir, running up the Grand Teton, chasing a high point while traveling, or helping on the film and support crew for a [fastest-known-time attempt](https://racinggrandteton.com/). I like objectives with logistics, consequence, and just enough absurdity to make normal hobbies seem suspicious.
 

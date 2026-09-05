@@ -1250,14 +1250,14 @@
   }
 
   .about-intro .intro-snapshot {
-    aspect-ratio: 21 / 9;
+    aspect-ratio: 16 / 9;
     margin: 1.25rem 0 0;
     transform: none;
   }
 
   .about-intro .intro-snapshot img {
     border-radius: .75rem;
-    object-position: center 60%;
+    object-position: center 50%;
   }
 
   .about-intro > p:not(.kicker) {
@@ -1456,11 +1456,11 @@
     }
 
     .about-intro .intro-snapshot {
-      aspect-ratio: 16 / 9;
+      aspect-ratio: 4 / 3;
     }
 
     .about-intro .intro-snapshot img {
-      object-position: center 55%;
+      object-position: center 50%;
     }
 
     .component-reel {
