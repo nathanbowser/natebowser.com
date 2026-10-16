@@ -71,3 +71,10 @@ Boutique technical training firm — JEE, Spring, Hibernate consulting and corpo
 - Served as lead instructor and mentor for a Java immersion initiative at a 100,000+ employee corporation.
 - Built custom business software, including safety tracking, warranty management, supply-chain management, and database-driven web applications.
 - Wrote technical exercises and training material grounded in real consulting work rather than academic examples.
+
+## Community
+
+Pro bono and board work.
+
+- TetonPass.org / Make Teton Pass Safer, pro bono technology volunteer, August 2026 to present: run the coalition's supporter CRM and mass mailings on Brevo, script the contact-data cleanup, dedup, and imports behind the list, and build the organizing tooling for a steering committee working with WYDOT, ITD, county officials, state legislators, and the regional trucking industry on Highway 22 safety. https://tetonpass.org/highway-safety.html
+- Idaho nonprofit water system, president of an incorporated, member-run nonprofit: governance, maintenance planning, vendor coordination, and keeping unglamorous shared infrastructure dependable.

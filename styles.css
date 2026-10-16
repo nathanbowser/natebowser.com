@@ -1590,7 +1590,7 @@
 
   @media print {
     @page {
-      margin: .55in;
+      margin: .45in;
     }
 
     body {
@@ -1636,9 +1636,9 @@
     }
 
     .resume-block {
-      grid-template-columns: 1.65in 1fr;
-      gap: .32in;
-      padding-block: .18in;
+      grid-template-columns: 1.55in 1fr;
+      gap: .3in;
+      padding-block: .12in;
       break-inside: avoid;
     }
 
@@ -1649,12 +1649,12 @@
     p,
     li,
     .meta {
-      font-size: 9.4pt;
-      line-height: 1.42;
+      font-size: 8.8pt;
+      line-height: 1.34;
     }
 
     .plain-list {
-      gap: .18rem;
+      gap: .14rem;
     }
   }
 }

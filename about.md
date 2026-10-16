@@ -37,6 +37,8 @@ That is also how I think about AI work. I like managed agents, Codex, Claude, Cu
 
 I’m president of an incorporated, member-run nonprofit water system in Idaho — governance, maintenance planning, vendor coordination, and the quietly satisfying problem of keeping unglamorous infrastructure dependable.
 
+I also do pro bono tech for [TetonPass.org](https://tetonpass.org/highway-safety.html) and the Make Teton Pass Safer coalition after losing a good friend on the pass. That means the supporter CRM and mass mailings in Brevo, the scripts that keep the contact data clean, and the organizing tooling behind a community effort pushing WYDOT, ITD, and legislators to make Highway 22 safer. It is the same kind of work as the water system: unglamorous plumbing that has to be dependable when people need it.
+
 ## Contact
 
 - Email: nbowser@gmail.com
