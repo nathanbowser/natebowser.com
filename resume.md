@@ -24,6 +24,14 @@ His current work centers on turning AI into dependable engineering leverage: sha
 - Visualization systems: JavaScript, TypeScript, D3.js, SVG, canvas, chart engines, maps, trees, dashboard editors, browser rendering, and performance-sensitive UI.
 - Product engineering: frontend, backend, build systems, deployment, AWS, SEO-focused websites, CMS workflows, data migrations, lead flow, testing, and customer-facing product behavior.
 
+## Last Chair
+
+Founder and engineer, 2026. https://lastchair.app
+
+- Designed, built and launched a private financial independence planner: household data is encrypted in the browser before it is saved, with no bank logins.
+- Hand-built SVG charts with D3, and a Monte Carlo that runs in a background worker, testing each plan against every year of US markets since 1928.
+- Free public Fee Finder showing what fund fees cost by retirement, using expense ratios from SEC filings.
+
 ## Spider Strategies
 
 Senior product engineer, 15 years.
