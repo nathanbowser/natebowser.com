@@ -1260,6 +1260,27 @@
     object-position: center 50%;
   }
 
+  .case-shot {
+    margin-block: .6rem 1.1rem;
+  }
+
+  .about-intro .case-shot {
+    margin-block: 1.25rem 0;
+  }
+
+  .case-shot img {
+    display: block;
+    inline-size: 100%;
+    block-size: auto;
+    border: 1px solid var(--line);
+    border-radius: .75rem;
+    box-shadow: var(--shadow);
+  }
+
+  .about-essay .plain-list {
+    margin-block: .15rem .4rem;
+  }
+
   .about-intro > p:not(.kicker) {
     margin-block-start: 1rem;
     font-size: clamp(.98rem, 1.45vw, 1.05rem);

@@ -1,6 +1,15 @@
 # Projects
 
-A few systems I’ve spent real time with: visualization platforms, component libraries, website infrastructure, AI automation, and founder-close product work. Most of this is Spider Impact and the work around it: a single long-lived product where I built the visualization layer, then the libraries underneath, then the website and AI stack on top.
+A few systems I’ve spent real time with: visualization platforms, component libraries, website infrastructure, AI automation, and founder-close product work. Most of this is Spider Impact and the work around it: a single long-lived product where I built the visualization layer, then the libraries underneath, then the website and AI stack on top. The newest is my own: Last Chair.
+
+## Last Chair
+
+My own product, launched in October 2026: a private planner for financial independence. It replaces the spreadsheet I kept for fifteen years: everything a household owns on one page, the year work becomes optional (tested against every year of US markets since 1928), and the trades that keep a mix on target. Household data is encrypted in the browser before it is saved, and there are no bank logins.
+
+- Write-up: https://natebowser.com/projects/last-chair/
+- Live: https://lastchair.app
+- Fee Finder, free and no sign-up: https://lastchair.app/fees
+- Built with SvelteKit 5 on Cloudflare Workers and D1, browser-side Argon2id and AES-GCM, Better Auth, Stripe, Cloudflare Email Sending, and hand-built SVG charts with d3-scale and d3-shape.
 
 ## Spider Impact visualization platform
 

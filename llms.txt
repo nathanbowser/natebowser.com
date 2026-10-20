@@ -8,6 +8,8 @@ Nate Bowser is a senior software engineer focused on AI automation and visualiza
 - [Home Markdown](https://natebowser.com/index.md): agent-readable home page.
 - [Projects](https://natebowser.com/projects/): visualization systems, Dash, AI automation, and developer-enablement project summaries.
 - [Projects Markdown](https://natebowser.com/projects.md): agent-readable project summaries.
+- [Last Chair](https://natebowser.com/projects/last-chair/): write-up of Last Chair, Nate's own private financial independence planner at lastchair.app.
+- [Last Chair Markdown](https://natebowser.com/projects/last-chair.md): agent-readable Last Chair write-up.
 - [Resume](https://natebowser.com/resume/): human-readable Resume structure.
 - [Plain text Resume](https://natebowser.com/resume.md): Markdown Resume summary for agents, search systems, and applicant-review tools.
 - [About](https://natebowser.com/about/): personal background, mountain life, working style, and contact links.
@@ -21,6 +23,7 @@ Nate Bowser is a senior software engineer focused on AI automation and visualiza
 - Founder-friendly systems builder for passionate founders and product teams that need clean architecture, readable code, and pragmatic execution.
 - Best fit: small curious-builder teams with enough context, trust, ownership, and room to wear many useful hats without chaos.
 - Long-running product engineering work at Spider Strategies.
+- Own product: Last Chair (https://lastchair.app), a private financial independence planner launched October 2026; SvelteKit 5 on Cloudflare Workers and D1, browser-side Argon2id and AES-GCM encryption, no bank logins, plans tested against every year of US markets since 1928, and a free Fee Finder.
 - Major technical focus: Spider Impact visualization components including chart, canvas, kalpa-tree, gauges, impact-shape, maps, timelines, and export workflows.
 - Earlier major product work: Dash, a realtime dashboard product with integrations, widgets, push services, image processing, and deployment tooling.
 - Recent focus: AI automation engineering, managed coding agents, Codex, Claude, Cursor, agentic workflows, human-in-the-loop review, agent-readable corpora, MCP/HTTP retrieval services, OpenAPI discovery, retrieval/context systems, internal CMS workflows, prompt systems, and engineering review automation.
@@ -30,4 +33,4 @@ Nate Bowser is a senior software engineer focused on AI automation and visualiza
 
 ## Keywords
 
-AI automation, agentic workflows, managed coding agents, Codex, Claude, Cursor, human-in-the-loop review, MCP, agent retrieval, retrieval augmented generation, context engineering, prompt engineering, OpenAPI discovery, developer productivity, data visualization, D3.js, SVG, canvas, dashboard editor, scorecard software, Spider Impact, Dash, Kalpa Tree, charting engine, browser performance, AWS, CMS workflows, developer enablement, technical training, JavaScript, TypeScript, Java.
+AI automation, agentic workflows, managed coding agents, Codex, Claude, Cursor, human-in-the-loop review, MCP, agent retrieval, retrieval augmented generation, context engineering, prompt engineering, OpenAPI discovery, developer productivity, data visualization, Last Chair, financial independence planning, SvelteKit, Cloudflare Workers, D3.js, SVG, canvas, dashboard editor, scorecard software, Spider Impact, Dash, Kalpa Tree, charting engine, browser performance, AWS, CMS workflows, developer enablement, technical training, JavaScript, TypeScript, Java.
