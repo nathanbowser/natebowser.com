@@ -14,8 +14,6 @@ The habit came from the Bogleheads forum and a few of the Bogleheads books: low-
 
 You enter tickers and share counts, coins, or a plain balance for anything without a price, plus a home and its mortgage. Prices and fund fees look themselves up. From there Last Chair shows net worth, how the mix compares with your targets, the year work becomes optional and whether you could already stop saving, and the trades that put the mix back on target: which fund, in which account, with the tax of each.
 
-It is $99 a year for the household. One plan, never a percentage of assets.
-
 ## Private by design
 
 There are no bank or brokerage logins, ever, and no aggregator in the middle. Accounts are labels, not account numbers. The household is one document, encrypted in the browser before it is saved: AES-256-GCM under a key derived from your passphrase with Argon2id, on your device. Twenty-four recovery words are the way back in, and a passkey can unlock it too. The server stores ciphertext it can’t read, every calculation runs in the browser, and price lookups carry only public ticker symbols.
