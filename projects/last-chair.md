@@ -24,23 +24,15 @@ That rule shaped the whole build. It is also why the public pages run on an inve
 
 ## Tested against history
 
-A single average return hides the bad decades. Last Chair replays the plan as if you’d started in each year of US markets since 1928, through what actually came next, 1929, 1966 and 2008 included, and through two thousand markets resampled from that record. The answer is how many of those histories the money lasts in. The annual returns are Aswath Damodaran’s, credited in the app.
+A single average return hides the bad decades. Last Chair replays the plan as if you’d started in each year of US markets since 1928, through what actually came next, 1929, 1966 and 2008 included, and through a Monte Carlo of two thousand markets resampled from that record. The answer is how many of those histories the money lasts in. The annual returns are Aswath Damodaran’s, credited in the app.
 
 ## The Fee Finder
 
 The one piece anyone can use without an account. Enter what you hold and roughly how much, and it shows what the fees cost a year, by the age you’d like to stop, and in months of work, against low-cost twins of the same funds. Expense ratios come from SEC filings. Try it at https://lastchair.app/fees.
 
-## How it’s built
+## Charts and math
 
-SvelteKit with Svelte 5 runes and strict TypeScript, Tailwind v4, on Cloudflare Workers with a D1 database through Drizzle. D1 holds sign-ins, the encrypted household, and public caches of prices and fund fees.
-
-- A pure TypeScript calculation engine with no UI imports, tested against a sample household.
-- Browser-side Argon2id and AES-GCM, WebAuthn passkeys, and a remembered-device key that can’t be read out of the browser.
-- Better Auth for magic-link and passkey sign-in, Cloudflare Email Sending for mail, Stripe for the membership.
-- Charts drawn by hand as SVG with d3-scale and d3-shape. No React, no chart library.
-- Prices from CoinGecko, Yahoo and Twelve Data, cached in D1; Vitest and Playwright for the tests.
-
-The fixed hosting bill is about six dollars a month.
+The charts are mine, hand-built in SVG with D3: a century of markets where each start year is a line that folds into a bar, the range of outcomes, the holdings as an icicle, the lifetime cost of fees. The Monte Carlo runs in a background worker in the browser and draws each run as it lands, so none of the math needs a server.
 
 ## Links
 

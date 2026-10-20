@@ -77,7 +77,7 @@
       <p>That rule shaped the whole build. It is also why the public pages run on an invented household, never my own.</p>
 
       <h2>Tested against history</h2>
-      <p>A single average return hides the bad decades. Last Chair replays the plan as if you’d started in each year of US markets since 1928, through what actually came next, 1929, 1966 and 2008 included, and through two thousand markets resampled from that record. The answer is how many of those histories the money lasts in. The annual returns are Aswath Damodaran’s, credited in the app.</p>
+      <p>A single average return hides the bad decades. Last Chair replays the plan as if you’d started in each year of US markets since 1928, through what actually came next, 1929, 1966 and 2008 included, and through a Monte Carlo of two thousand markets resampled from that record. The answer is how many of those histories the money lasts in. The annual returns are Aswath Damodaran’s, credited in the app.</p>
       <figure class="case-shot">
         <img src="/assets/last-chair-history.webp" width="1600" height="1000" alt="The Tested since 1928 tile: 98 of 98 start years, with a bar for each start year from 1928 to 2025." loading="lazy" decoding="async">
       </figure>
@@ -88,16 +88,8 @@
         <img src="/assets/last-chair-fees.webp" width="1600" height="1000" alt="The Fee Finder with an example portfolio: three funds, a blended 0.22% fee, $1,185 a year and $31K more by age 60 than low-cost equivalents." loading="lazy" decoding="async">
       </figure>
 
-      <h2>How it’s built</h2>
-      <p>SvelteKit with Svelte 5 runes and strict TypeScript, Tailwind v4, on Cloudflare Workers with a D1 database through Drizzle. D1 holds sign-ins, the encrypted household, and public caches of prices and fund fees.</p>
-      <ul class="plain-list">
-        <li>A pure TypeScript calculation engine with no UI imports, tested against a sample household.</li>
-        <li>Browser-side Argon2id and AES-GCM, WebAuthn passkeys, and a remembered-device key that can’t be read out of the browser.</li>
-        <li>Better Auth for magic-link and passkey sign-in, Cloudflare Email Sending for mail, Stripe for the membership.</li>
-        <li>Charts drawn by hand as SVG with d3-scale and d3-shape. No React, no chart library.</li>
-        <li>Prices from CoinGecko, Yahoo and Twelve Data, cached in D1; Vitest and Playwright for the tests.</li>
-      </ul>
-      <p>The fixed hosting bill is about six dollars a month.</p>
+      <h2>Charts and math</h2>
+      <p>The charts are mine, hand-built in SVG with D3: a century of markets where each start year is a line that folds into a bar, the range of outcomes, the holdings as an icicle, the lifetime cost of fees. The Monte Carlo runs in a background worker in the browser and draws each run as it lands, so none of the math needs a server.</p>
 
       <h2>Links</h2>
       <p><a href="https://lastchair.app">lastchair.app</a> · <a href="https://lastchair.app/fees">Fee Finder</a> (free, no sign-up) · <a href="https://lastchair.app/why">Why Last Chair</a> · <a href="https://lastchair.app/security">How the encryption works</a></p>

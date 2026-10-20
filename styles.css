@@ -1277,10 +1277,6 @@
     box-shadow: var(--shadow);
   }
 
-  .about-essay .plain-list {
-    margin-block: .15rem .4rem;
-  }
-
   .about-intro > p:not(.kicker) {
     margin-block-start: 1rem;
     font-size: clamp(.98rem, 1.45vw, 1.05rem);

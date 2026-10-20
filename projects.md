@@ -9,7 +9,7 @@ My own product, launched in October 2026: a private planner for financial indepe
 - Write-up: https://natebowser.com/projects/last-chair/
 - Live: https://lastchair.app
 - Fee Finder, free and no sign-up: https://lastchair.app/fees
-- Built with SvelteKit 5 on Cloudflare Workers and D1, browser-side Argon2id and AES-GCM, Better Auth, Stripe, Cloudflare Email Sending, and hand-built SVG charts with d3-scale and d3-shape.
+- Hand-built SVG charts with D3, and a Monte Carlo that runs in the browser.
 
 ## Spider Impact visualization platform
 
